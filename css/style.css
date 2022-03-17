@@ -1,0 +1,51 @@
+body {
+font-family: Arial;
+}
+
+.block{
+font-size: 17px;
+width: 115px;
+height: 80px;
+background: blue;
+color: white;
+}
+
+.black{
+margin-top: 120px
+;}
+
+.new {
+color: red;
+}
+
+.list{
+color: white;
+background: green;
+}
+
+.start{
+color: white;
+background: green;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 60px;
+}
+
+.start:hover {
+font-size: 25px;
+opacity: 0.5;
+}
+
+.meta{
+margin-left:130px;
+}
+
+.name{
+border: 1px solid black;
+font-size: 20px;
+}
+
+.lang{
+color: white;
+background: green;
+}
