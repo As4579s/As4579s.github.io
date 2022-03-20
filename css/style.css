@@ -1,51 +1,175 @@
-body {
-font-family: Arial;
-}
+body{
+font-family: 'Open Sans', sans-serif;
+padding: 0;
+margin: 0;}
 
-.block{
-font-size: 17px;
-width: 115px;
-height: 80px;
-background: blue;
+div, p, input, button, form, span, a, ul, li {
+ box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+} 
+
+.conteiner{
+ width: 1170px;
+ margin: 0 auto;}
+
+ .header{
+ background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 59px;
 color: white;
+padding-bottom: 149px;}
+
+.Wrapper{
+	display: flex;
+	justify-content: space-between;
 }
 
-.black{
-margin-top: 120px
-;}
+.offer{
+margin-top: 90px;}
 
-.new {
-color: red;
+h1  {
+/*font-size: 31px;*/
+font-family: Ubuntu ;
+line-height: 1.6em;
+letter-spacing: 0.1em;
+font-weight: bold;
 }
 
-.list{
+.yellow span{
+font-size: 59px;
+}
+
+.logo{
+width: 518px;
+}
+
+.intro{
+	line-height: 1.6em;
+}
+
+.btn{
+text-align: center;
+text-decoration: none;
+width: 221px;
+height: 55px;
+background: #ffd429;
+color: black;
+font-family:Montserrat Black ;
+font-size: 15px;
+display: block;
+padding-top: 20px;
+margin-top: 42px;
+}
+
+.btn:hover {
+background: #eea61b;
+color: black;
+transition: all 0.5s ease;}
+
+.section-title {
+color: black;
+font-weight: bold;
+font-size: 30px;
+font-family: Ubuntu ;
+text-align: center;
+padding-top: 108px;}
+
+
+.skills{
+display: flex;
+justify-content: space-between;
+margin-top: 74px;
+margin-bottom: 119px;}
+
+.skill-title{
+font-size: 19px;
+padding-top: 99px;
+text-align: center;
+font-family: Ubuntu;
+font-weight: bold;
+}
+
+.skill-text{
+font-size: 13px;
+margin-top: 7px;
+text-align: center;
+}
+
+.skill {
+width: 344px;
+background: url('../img/desktop.jpg') no-repeat;
+background-position: 50% 0%;
+}
+ 
+.dream{
+width: 344px;
+background: url('../img/icon.png') no-repeat;
+background-position: 50% 0%;
+}
+
+.red{
+width: 344px;
+background: url('../img/iconn.png') no-repeat;
+background-position: 50% 0%;
+}
+
+.future{
+background: #ecf3f8;
+}
+
+.future-form{
+text-align: center;
+padding-top: 101px;
+padding-bottom: 61px;
+font-family: Ubuntu;
+font-weight: bold;
+}
+
+input {
+display: block;
+width: 341px;
+height: 50px;
+margin-bottom: 15px;
+padding-left: 30px;
+font-family: Ubuntu ;
+font-size: 15px;
+border: 1px solid #bbbbbb;
+}
+
+.mail{
+padding-left: 413px;
+padding-bottom: 100px;}
+
+.nar{
+height: 55px;
+width: 341px;
+margin-top: 0;
+border: none;
+padding-bottom: 20px;
+}
+
+.final{
+background: #164d7a;
+}
+
+.protect{
 color: white;
-background: green;
-}
+font-size: 14px;
+padding-top: 58px;
+padding-bottom: 61px;
+padding-left: 407px;}
 
-.start{
-color: white;
-background: green;
-padding-top: 50px;
-padding-bottom: 50px;
-padding-left: 60px;
-}
 
-.start:hover {
-font-size: 25px;
-opacity: 0.5;
-}
 
-.meta{
-margin-left:130px;
-}
 
-.name{
-border: 1px solid black;
-font-size: 20px;
-}
 
-.lang{
-color: white;
-background: green;
-}
+
+
