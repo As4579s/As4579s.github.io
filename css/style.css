@@ -108,25 +108,27 @@ font-weight: bold;
 font-size: 15px;
 margin: 7px auto 0;
 text-align: center;
-width: 289px;
 }
 
 .skill {
 width: 344px;
 background: url('../img/desktop.jpg') no-repeat;
 background-position: 50% 0%;
+width: 289px;
 }
  
 .dream{
 width: 344px;
 background: url('../img/icon.png') no-repeat;
 background-position: 50% 0%;
+width: 289px;
 }
 
 .red{
 width: 344px;
 background: url('../img/iconn.png') no-repeat;
 background-position: 50% 0%;
+width: 310px;
 }
 
 .future{
@@ -171,4 +173,76 @@ color: white;
 font-size: 14px;
 text-align: center; 
 margin: 0;
+}
+
+/*Responsive*/
+/*1200px-1400px*/
+@media screen and (max-width: 1400px){
+	.conteiner{
+		width: 1140px;
+}
+}
+
+/*992px-1200px*/
+@media screen and (max-width: 1200px){
+	.conteiner{
+	width: 960px;
+}
+}
+
+
+/*768px-992px*/
+@media screen and (max-width: 992px){
+	.conteiner{
+	width: 720px;
+}
+.Wrapper{
+	    flex-direction: column;	
+}
+.offer{
+width: 100%;
+}
+.yellow{
+	width: auto;
+}
+.intro{
+	width: auto;
+}
+.logo{
+	width: 100%;
+}
+.skills{
+flex-direction: column;
+}
+.skill{
+	margin: 0 auto 30px;
+}
+.dream{
+ margin: 0 auto 30px;
+}
+.red { 
+	margin: 0 auto;
+}
+input {
+width: auto;
+}
+.nar{
+	width: 208px;
+}
+}
+
+
+/*576px-768px*/
+@media screen and (max-width: 768px){
+	.conteiner{
+	width: 540px;
+}
+}
+
+
+/*0px-576px*/
+@media screen and (max-width: 576px){
+	.conteiner{
+	width: 90%;
+}
 }
